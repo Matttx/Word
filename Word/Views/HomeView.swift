@@ -40,10 +40,12 @@ struct HomeView: View {
                     }
                 }
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button {
-                        viewModel.clearDetails()
-                    } label: {
-                        Text("Clear")
+                    if viewModel.details != nil {
+                        Button {
+                            viewModel.clearDetails()
+                        } label: {
+                            Text("Clear")
+                        }
                     }
                 }
             }

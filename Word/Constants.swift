@@ -10,6 +10,6 @@ import Alamofire
 
 let kAPIUrl = "https://wordsapiv1.p.rapidapi.com/words/"
 let kAPIHeader: HTTPHeaders = [
-    "x-rapidapi-key": "351f105285msh36a4bdf988c7728p129bf6jsnc9f121eafda7",
+    "x-rapidapi-key": /* Your wordsapi key here */,
     "x-rapidapi-host": "wordsapiv1.p.rapidapi.com"
 ]
