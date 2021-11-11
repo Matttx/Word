@@ -32,7 +32,7 @@ Here is the different features of the app:
 ---
 
 <div align="center" padding-bottom="40px">
-  <title>Dark Mode</title>
+  <p>Dark Mode</p>
 </div>
 <div align="center">
   <img src="assets/home.png" width=200/>
