@@ -9,6 +9,18 @@ Instead of going on Google Traduction to translate a word, just go on this app, 
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-13.1-blue.svg)](https://developer.apple.com/xcode)
 ---
+## Launch the project  
+> ⚠️ Warning: To use the project you have to get a Words API Key -> [wordsapi.com](https://www.wordsapi.com)
+
+### Requirement
+Open a terminal and run this command  
+```
+pod install
+```
+### Launch the project
+Open Xcode and run the project
+
+---
 Here is the different features of the app:
 - Search every english word you want in the english dictionnary.
 - See the details of the definitions and it's examples, synonyms.
@@ -20,7 +32,7 @@ Here is the different features of the app:
 ---
 
 <div align="center" padding-bottom="40px">
-  <p>Dark Mode</p>
+  <title>Dark Mode</title>
 </div>
 <div align="center">
   <img src="assets/home.png" width=200/>
