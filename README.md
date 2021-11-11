@@ -8,17 +8,6 @@ Instead of going on Google Traduction to translate a word, just go on this app, 
 ![Version](https://img.shields.io/badge/OS-iOS_15-green.svg)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-5.1-cyan.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-13.1-blue.svg)](https://developer.apple.com/xcode)
----
-## Launch the project  
-> ⚠️ Warning: To use the project you have to get a Words API Key -> [wordsapi.com](https://www.wordsapi.com)
-
-### Requirement
-Open a terminal and run this command  
-```
-pod install
-```
-### Launch the project
-Open Xcode and run the project
 
 ---
 Here is the different features of the app:
@@ -48,3 +37,15 @@ Here is the different features of the app:
   <img src="assets/definitions-light.png" width=200/>
   <img src="assets/details-light.png" width=200/>
 </div>
+
+---
+## Launch the project  
+> ⚠️ Warning: To use the project you have to get a Words API Key -> [wordsapi.com](https://www.wordsapi.com)
+
+### Requirement
+Open a terminal and run this command  
+```
+pod install
+```
+### Launch the project
+Open Xcode and run the project
