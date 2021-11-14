@@ -11,7 +11,7 @@ import AlertToast
 struct HomeView: View {
     
     @StateObject var viewModel = WordViewModel()
-    
+        
     var body: some View {
         NavigationView {
             VStack {
@@ -49,12 +49,12 @@ struct HomeView: View {
                     }
                 }
             }
-            .toast(isPresenting: $viewModel.loadingDatas) {
-                AlertToast(type: .loading)
-            }
-            .toast(isPresenting: $viewModel.showErrorToast){
-                AlertToast(displayMode: .alert ,type: .error(Color(uiColor: .systemRed)), title: viewModel.error?.rawValue)
-            }
+        }
+        .toast(isPresenting: $viewModel.loadingDatas) {
+            AlertToast(type: .loading)
+        }
+        .toast(isPresenting: $viewModel.showErrorToast){
+            AlertToast(displayMode: .hud ,type: .error(Color(uiColor: .systemRed)), title: viewModel.error?.rawValue)
         }
     }
 }

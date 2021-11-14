@@ -204,6 +204,8 @@
 			dependencies = (
 			);
 			name = Word;
+			packageProductDependencies = (
+			);
 			productName = Word;
 			productReference = 95B5D2C4273C408300212153 /* Word.app */;
 			productType = "com.apple.product-type.application";
@@ -232,6 +234,8 @@
 				Base,
 			);
 			mainGroup = 95B5D2BB273C408300212153;
+			packageReferences = (
+			);
 			productRefGroup = 95B5D2C5273C408300212153 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
